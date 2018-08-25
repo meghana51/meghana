@@ -1,11 +1,11 @@
-a=raw_input()
-length=len(a)
+b=raw_input()
+length=len(b)
 for i in range(0,length):
-	if(a[i]=="k"):
-		print a[i]
+	if(b[i]=="k"):
+		print b[i]
 		break
-	elif(a[i]=="K"):
-		print a[i]
+	elif(b[i]=="K"):
+		print b[i]
 		break
 	else:
-		print a[i],
+		print b[i],
